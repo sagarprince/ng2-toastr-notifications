@@ -4,3 +4,8 @@ npm login
 npm publish dist
 
 https://github.com/npm/npm/issues/17818
+
+
+https://stackoverflow.com/questions/41673916/error-in-is-not-an-ngmodule
+
+https://medium.com/@cyrilletuzi/how-to-build-and-publish-an-angular-module-7ad19c0b4464
