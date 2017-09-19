@@ -26,14 +26,18 @@ export * from './toastr.controller';
     ToastrPipe
   ],
   providers: [
-    ComponentFactoryService
+    ComponentFactoryService,
+    ToastrController
+  ],
+  entryComponents: [
+    ToastrComponent
   ]
 })
 export class ToastrModule {
   static forRoot(): ModuleWithProviders {
     return {
       ngModule: ToastrModule,
-      providers: [ToastrController]
+      providers: []
     };
   }
 }
