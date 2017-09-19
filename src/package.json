@@ -1,9 +1,9 @@
 {
-  "name": "ng2-toastr",
-  "version": "0.1.0",
+  "name": "ng2-toastr-notifications",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sagarprince/ng2-toastr.git"
+    "url": "https://github.com/sagarprince/ng2-toastr-notifications.git"
   },
   "author": {
     "name": "Sagar Pansare",
@@ -14,7 +14,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sagarprince/ng2-toastr.git/issues"
+    "url": "https://github.com/sagarprince/ng2-toastr-notifications.git/issues"
   },
   "main": "ng2-toastr.umd.js",
   "module": "ng2-toastr.js",

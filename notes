@@ -1,0 +1,6 @@
+publish package onto npm 
+first
+npm login
+npm publish dist
+
+https://github.com/npm/npm/issues/17818
