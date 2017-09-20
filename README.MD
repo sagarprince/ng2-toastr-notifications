@@ -44,7 +44,7 @@ class AppComponent {
   ],
   imports: [
     BrowserModule,
-    ToastrModule
+    ToastrModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

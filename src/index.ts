@@ -25,8 +25,7 @@ export * from './toastr.controller';
     ToastrDirective,
     ToastrPipe
   ],
-  providers: [
-    ComponentFactoryService
+  providers: [    
   ],
   entryComponents: [
     ToastrComponent
@@ -36,7 +35,7 @@ export class ToastrModule {
   static forRoot(): ModuleWithProviders {
     return {
       ngModule: ToastrModule,
-      providers: [ToastrController]
+      providers: [ComponentFactoryService, ToastrController]
     };
   }
 }
